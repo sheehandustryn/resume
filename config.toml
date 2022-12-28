@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://sheehandustryn-resume.web.app/'
 languageCode = 'en-us'
 title = 'Robert Carlson | DevOps Engineer'
 enableGitInfo = true
@@ -200,7 +200,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [[params.skills.list.items]]
     details = "pfSense"
     [[params.skills.list.items]]
-    details = "TruffleHog
+    details = "TruffleHog"
 
   [params.social]
     enable = true
