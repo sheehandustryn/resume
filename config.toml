@@ -1,3 +1,220 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Robert Carlson | DevOps Engineer'
+enableGitInfo = true
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+  author = "Robert Carlson"
+  description = "DevOps Engineer Resume"
+  ghRepo = "https://github.com/sheehandustryn/resume/"
+  hugoRepo = "https://github.com/gohugoio/hugo/"
+
+  [params.contact]
+    enable = true
+    location = "Sebago, Maine"
+
+    [[params.contact.list]]
+    icon = "fas fa-phone-square"
+    url = "tel:<1.207.405.8620>"
+    text = "1.207.405.8620"
+    [[params.contact.list]]
+    icon = "fas fa-envelope-square"
+    url = "mailto:jobs@sheehandustryn.com"
+    text = "jobs@sheehandustryn.com"
+    [[params.contact.list]]
+    icon = "fas fa-globe"
+    url = "https://sheehandustryn.com"
+    text = "https://sheehandustryn.com"
+
+  [params.certifications]
+    enable = true
+
+    [[params.certifications.list]]
+    name = "Certified Kubernetes Administrator"
+    [[params.certifications.list]]
+    name = "In Progress: AWS Certified DevOps Engineer Professional"
+    [[params.certifications.list]]
+    name = "In Progress: CompTIA PenTest+" 
+
+  [params.education]
+    enable = true
+
+    [[params.education.list]]
+    degree = "BSc Informatics"
+    university = "University of Nevada, Las Vegas"
+
+  [params.experience]
+    enable = true
+
+    [[params.experience.list]]
+    title = "DevOps Engineer"
+    dates = "2021 - Present"
+    company = "Caesars Digital"
+    [[params.experience.list.items]]
+    details = "First member of MarTech DevOps Team"
+    [[params.experience.list.items]]
+    details = "Created CI/CD Pipelines for all MarTech projects"
+    [[params.experience.list.items]]
+    details = "Created AWS EKS infrastructure for all MarTech services"
+    [[params.experience.list.items]]
+    details = "Created Monitoring and Observability Platform utilizing ELK and Prometheus"
+
+    [[params.experience.list]]
+    title = "Senior DevOps Engineer"
+    dates = "2019 - 2021"
+    company = "Kaseya"
+
+    [[params.experience.list]]
+    title = "Windows Deployment and Systems Engineer"
+    dates = "2018 to 2019"
+    company = "Stadium Technology Group"
+
+    [[params.experience.list]]
+    title = "DevOps Engineer"
+    dates = "2016 - 2018"
+    company = "Kaseya"
+
+    [[params.experience.list]]
+    title = "Systems Administrator"
+    dates = "2014 - 2016"
+    company = "Kareo"
+
+  [params.profile]
+    enable = true
+    name = "Robert Carlson"
+    tagline = "DevOps Engineer"
+    avatar = "linkedin.png"
+
+  [params.skills]
+    enable = true
+
+    [[params.skills.list]]
+    title = "CI/CD"
+    [[params.skills.list.items]]
+    details = "Gitlab"
+    [[params.skills.list.items]]
+    details = "Jenkins"
+
+    [[params.skills.list]]
+    title = "Cloud Providers"
+    [[params.skills.list.items]]
+    details = "AWS"
+    [[params.skills.list.items]]
+    details = "Azure"
+
+    [[params.skills.list]]
+    title = "Containerization and Container Orchestration"
+    [[params.skills.list.items]]
+    details = "AWS EKS"
+    [[params.skills.list.items]]
+    details = "Docker Engine"
+    [[params.skills.list.items]]
+    details = "Helm"
+    [[params.skills.list.items]]
+    details = "Kubernetes"
+
+    [[params.skills.list]]
+    title = "Data"
+    [[params.skills.list.items]]
+    details = "MSSQL"
+    [[params.skills.list.items]]
+    details = "PostgreSQL"
+    [[params.skills.list.items]]
+    details = "Redis"
+    [[params.skills.list.items]]
+    details = "Snowflake"
+
+    [[params.skills.list]]
+    title = "Infrastructure as Code"
+    [[params.skills.list.items]]
+    details = "HashiCorp Terraform"
+    [[params.skills.list.items]]
+    details = "Redhat Ansible"
+    [[params.skills.list.items]]
+    details = "Terragrunt"
+
+    [[params.skills.list]]
+    title = "Frontend and Design"
+    [[params.skills.list.items]]
+    details = "Concepts App"
+    [[params.skills.list.items]]
+    details = "CSS3"
+    [[params.skills.list.items]]
+    details = "Figma"
+    [[params.skills.list.items]]
+    details = "HTML5"
+    [[params.skills.list.items]]
+    details = "JavaScript/TypeScript"
+    [[params.skills.list.items]]
+    details = "NextJS"
+    [[params.skills.list.items]]
+    details = "ReactJS"
+    [[params.skills.list.items]]
+
+    [[params.skills.list]]
+    title = "Monitoring and Observability"
+    [[params.skills.list.items]]
+    details = "ELK Stack: Elasticsearch, Logstash, Kibana (and Beats)"
+    [[params.skills.list.items]]
+    details = "Prometheus"
+
+    [[params.skills.list]]
+    title = "Operating Systems"
+    [[params.skills.list.items]]
+    details = "Linux: Debian-based"
+    [[params.skills.list.items]]
+    details = "Linux: RHEL-based"
+    [[params.skills.list.items]]
+    details = "MacOS"
+    [[params.skills.list.items]]
+    details = "Windows: Client and Server"
+
+    [[params.skills.list]]
+    title = "Programming and Scripting Languages"
+    [[params.skills.list.items]]
+    details = "Bash"
+    [[params.skills.list.items]]
+    details = "Go(lang)"    
+    [[params.skills.list.items]]
+    details = "Powershell"
+    [[params.skills.list.items]]
+    details = "Python 3"
+    [[params.skills.list.items]]
+    details = "Scala 2/3"
+
+    [[params.skills.list]]
+    title = "Security and Penetration Testing"
+    [[params.skills.list.items]]
+    details = "Burp Suite"
+    [[params.skills.list.items]]
+    details = "Ffuf"
+    [[params.skills.list.items]]
+    details = "Hashcat"
+    [[params.skills.list.items]]
+    details = "John the Ripper"
+    [[params.skills.list.items]]
+    details = "Metasploit"
+    [[params.skills.list.items]]
+    details = "NMap"
+    [[params.skills.list.items]]
+    details = "pfSense"
+    [[params.skills.list.items]]
+    details = "TruffleHog
+
+  [params.social]
+    enable = true
+
+    [[params.social.list]]
+    icon = "fab fa-github-square"
+    url = "https://github.com/sheehandustryn"
+    title = "https://github.com/sheehandustryn"
+
+    [[params.social.list]]
+    icon = "fab fa-linkedin"
+    url = "https://www.linkedin.com/in/robertjohncarlson"
+    title = "https://www.linkedin.com/in/robertjohncarlson"
+
+  [params.summary]
+    enable = true
+    text = "Spent 8 years using my skills to assist development teams in increasing their velocity without sacrificing code quality or service reliability and security. Deep experience with AWS and Kubernetes."
