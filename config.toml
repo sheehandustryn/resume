@@ -35,7 +35,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [[params.certifications.list]]
     name = "In Progress: AWS Certified DevOps Engineer Professional"
     [[params.certifications.list]]
-    name = "In Progress: CompTIA PenTest+" 
+    name = "In Progress: CompTIA PenTest+"
 
   [params.education]
     enable = true
@@ -64,16 +64,22 @@ googleAnalytics = "UA-XXXXXXX-Y"
     title = "Senior DevOps Engineer"
     dates = "2019 - 2021"
     company = "Kaseya"
+    [[params.experience.list.items]]
+    details = "Created and managed CI/CD pipelines for flagship SaaS offerings and self-hosted packages
 
     [[params.experience.list]]
     title = "Windows Deployment and Systems Engineer"
     dates = "2018 to 2019"
     company = "Stadium Technology Group"
+    [[params.experience.list.items]]
+    details = "Created IaC for infrastructure deployment of self-hosted product offering
 
     [[params.experience.list]]
     title = "DevOps Engineer"
     dates = "2016 - 2018"
     company = "Kaseya"
+    [[params.experience.list.items]]
+    details = "Created and managed CI/CD pipelines for flagship SaaS offerings and self-hosted packages
 
     [[params.experience.list]]
     title = "Systems Administrator"
@@ -175,7 +181,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [[params.skills.list.items]]
     details = "Bash"
     [[params.skills.list.items]]
-    details = "Go(lang)"    
+    details = "Go(lang)"
     [[params.skills.list.items]]
     details = "Powershell"
     [[params.skills.list.items]]
