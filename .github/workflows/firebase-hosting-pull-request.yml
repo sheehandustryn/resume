@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SHEEHANDUSTRYN_RESUME }}'
-          projectId: sheehandustryn-resume
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_RESUME_E7DFE }}'
+          projectId: resume-e7dfe
